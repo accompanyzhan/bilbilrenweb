@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docFont = clientWidth / 10;
+						docEl.style.fontSize = docFont + 'px';
+						return docFont;
+					};
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<title>bilbil干杯</title>
+
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="logo"></div>
+			<div class="seach"></div>
+			<div class="tx"></div>
+			<a class="downapp">下载 app</a>
+		</div>
+		<div class="nav">
+			<ul>
+				<li>首页</li>
+				<li>动画</li>
+				<li>番剧</li>
+				<li>国创</li>
+				<li>音乐</li>
+			</ul>
+			<!--			<div class="arrow"></div>-->
+		</div>
+
+			
+		</div>
+		<div class="swiper">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/swiper1.png" />
+					</div>
+					<div class="swiper-slide"><img src="img/swiper2.png" />
+					</div>
+					<div class="swiper-slide"><img src="img/swiper3.png" />
+					</div>
+					<div class="swiper-slide"><img src="img/swiper4.png" />
+					</div>
+
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="button">
+			<ul>
+				<li>
+					<div class="img"><img src="img/img1.png"></div>
+					<div class="word">
+						<p>人生就是如此，你以为已经从一个漩涡逃离，其实另外一个漩涡就在你的脚下。用力蹬一脚，就进去了。所以，不需要对生活太用力，心会带着我们去该去的地方。《目送》</p>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="img/img2.png"></div>
+					<div class="word">
+						<p>.如果你爱上了某个星球的一朵花。那么，只要在夜晚仰望星空，就会觉得漫天的繁星就像一朵朵盛开的花。《小王子》</p>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="img/img3.png"></div>
+					<div class="word">
+						<p>记得当时年纪小你爱谈天我爱笑，有一回并肩坐在桃树下，风在林梢鸟儿在叫，我们不知怎样睡着了，梦里花落知多少。《记得当时年纪小》</p>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="img/img4.png"></div>
+					<div class="word">
+						<p>也许一个人在真正无可奈何的时候，除了微笑，也只好微笑了。《家明与玫瑰》</p>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="img/img5.png"></div>
+					<div class="word">
+						<p>能够说出的委屈，便不算委屈;能够抢走的爱人，便不算爱人。《开到荼蘼》</p>
+					</div>
+				</li>
+				<li>
+					<div class="img"><img src="img/img6.png"></div>
+					<div class="word">
+						<p>无论做什么，记得为自己而做，那就毫无怨言。《流金岁月》</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>
